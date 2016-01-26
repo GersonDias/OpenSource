@@ -1,0 +1,81 @@
+﻿ /*---------------------------------------------------------------------
+ // <copyright file="app.cs">
+ //    This code is licensed under the MIT License.
+ //    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF 
+ //    ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+ //    TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+ //    PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ // </copyright>
+ // <summary>CSS file for TogglButtonForm</summary>
+ //---------------------------------------------------------------------*/
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    width: 100%;
+}
+
+.section{
+    margin-top: 10px;
+}
+
+.labelTitle {
+    color: #B7B7B7;
+}
+
+.dropdownList {
+    width: 100%;
+}
+
+.chosen-select {
+    width: 100%;
+}
+
+.textBox {
+    width: 100%;
+}
+
+.buttonDiv {
+    margin-top: 5px;
+    width: 100%;
+}
+
+optgroup {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+option {
+    margin-left: 20px;
+}
+
+.error {
+    color: red;
+}
+
+.btn {
+    margin-right: 4px;
+}
+
+#startTimer {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+#stopTimer {
+    position: absolute;  
+    height: 100%;  
+    display: none;
+}
+
+#changeWIState{
+    display: none;
+}
+
+.stopDiv {
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    bottom: 50%;
+}

@@ -1,0 +1,83 @@
+{
+  "manifestVersion": 1,
+  "id": "WICheckList",
+  "version": "0.1.0",
+  "name": "WorkItem CheckList",
+  "scopes": [ "vso.work", "vso.work_write" ],
+  "description": "Just a Checklist for WorkItems",
+  "baseUri": "https://localhost:44300/",
+  "publisher": "GersonDias",
+  "public": false,
+  "targets": [
+    {"id":  "Microsoft.VisualStudio.Services"}
+  ],
+  "icons": {
+    "default": "img/logo.png"
+  },
+  "tags": [
+    "Working", "CheckList"
+  ],
+  "links": {
+        "home": {
+            "uri": "https://bit.ly"
+        },
+        "getstarted": {
+            "uri": "https://bit.ly"
+        },
+        "learn": {
+            "uri": "https://bit.ly"
+        },
+        "support": {
+            "uri": "https://bit.ly"
+        },
+        "repository": {
+            "uri": "https://bit.ly"
+        },
+        "issues": {
+            "uri": "https://bit.ly"
+        }
+    },
+    "branding": {
+        "color": "rgb(220, 235, 252)",
+    "theme": "light"
+    },
+  "files": [
+    {
+      "path": "css",
+      "addressable": true
+    },
+    {
+      "path": "img",
+      "addressable": true
+    },
+    {
+      "path": "scripts",
+      "addressable": true
+    },
+    {
+      "path": "index.html",
+      "addressable": true
+    },
+    {
+      "path": "workItemChecklist.html",
+      "addressable":  true
+    }
+  ],
+  "categories": [
+    "Plan and track"
+  ],
+ "contributions": [
+    {  
+        "id": "work-item-checklist",
+        "type": "ms.vss-work-web.work-item-form-page",
+        "description": "WorkItem Checklist",
+        "targets": [
+            "ms.vss-work-web.work-item-form"
+        ],
+        "properties": {
+            "name": "CheckList",
+            "uri": "workItemChecklist.html"
+        } 
+    }
+  ] 
+}

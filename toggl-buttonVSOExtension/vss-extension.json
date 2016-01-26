@@ -1,0 +1,96 @@
+{
+  "manifestVersion": 1,
+  "version": "1.1",
+  "name": "Toggl Button",
+  "id": "TogglButton",
+  "description": "VSTS and toggl.com integration",
+  "provider": {
+    "name": "Gerson Dias"
+  },
+  "publisher": "GersonDias",
+  "baseUri": "https://vso-toggl.azurewebsites.net",
+  "public": true,
+  "categories": [
+    "Plan and track"
+  ],
+  "icons": {
+    "default": "/public/images/apple-touch-icon-128x128.png"
+  },
+  "tags": [
+    "working",
+    "track",
+    "time management"
+  ],
+  "content": {
+    "license": {
+      "path": "license.txt"
+    },
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "files": [
+    {
+        "path": "images",
+        "addressable": "true" 
+    }
+  ],
+  "links": {
+    "home": {
+      "uri": "aka.ms/vsoext12"
+    },
+    "repository": {
+      "uri": "https://github.com/GersonDias/toggl-buttonVSOExtension"
+    },
+    "issues": {
+      "uri": "https://github.com/GersonDias/toggl-buttonVSOExtension/issues"
+    },
+    "support": {
+      "uri": "https://github.com/GersonDias/toggl-buttonVSOExtension/issues"
+    },
+    "learn": {
+      "uri": "aka.ms/vsoext12"
+    }
+  },
+  "branding": {
+    "color": "rgb(220,235,252)",
+    "theme": "light"
+  },
+  "scopes": [
+    "vso.profile",
+    "vso.work",
+    "vso.work_write"
+  ],
+  "contributions": [
+    {
+      "id": "TogglButton",
+      "type": "ms.vss-web.action",
+      "description": "Track time for this workitem",
+      "targets": [
+        "ms.vss-work-web.work-item-toolbar-menu"
+      ],
+      "properties": {
+        "text": "Track your time",
+        "title": "TogglButton",
+        "toolbarText": "Start Time",
+        "icon": "images/active-16.png",
+        "group": "actions",
+        "uri": "TogglButton",
+        "registeredObjectId": "TogglButton"
+      }
+    },
+    {
+      "id": "TogglButtonForm",
+      "targets": [ ".controls" ],
+      "type": "ms.vss-web.control",
+      "properties": {
+        "uri": "TogglButtonForm"
+      }
+    }
+  ],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ]
+}

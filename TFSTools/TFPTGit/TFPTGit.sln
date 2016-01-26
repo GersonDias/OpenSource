@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22013.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "TFPTGit.Engine\Engine.csproj", "{BFFD73B0-879B-492F-88F9-BF213214EC3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "TFPTGit.Tests\Tests.csproj", "{2701233B-76D2-4ABA-9782-9D4985C6B58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{8DC0B157-2DA2-43E8-B560-E8DA4EB1B12D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFFD73B0-879B-492F-88F9-BF213214EC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFFD73B0-879B-492F-88F9-BF213214EC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFFD73B0-879B-492F-88F9-BF213214EC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFFD73B0-879B-492F-88F9-BF213214EC3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2701233B-76D2-4ABA-9782-9D4985C6B58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2701233B-76D2-4ABA-9782-9D4985C6B58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2701233B-76D2-4ABA-9782-9D4985C6B58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2701233B-76D2-4ABA-9782-9D4985C6B58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC0B157-2DA2-43E8-B560-E8DA4EB1B12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC0B157-2DA2-43E8-B560-E8DA4EB1B12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC0B157-2DA2-43E8-B560-E8DA4EB1B12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC0B157-2DA2-43E8-B560-E8DA4EB1B12D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

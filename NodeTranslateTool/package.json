@@ -1,0 +1,26 @@
+{
+  "name": "NodeTranslateTool",
+  "version": "0.1.0",
+  "description": "Translation tool in Node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GersonDias/NodeTranslateTool"
+  },
+  "keywords": [
+    "Node.js",
+    "Translate",
+    "Tool"
+  ],
+  "author": "Gerson Dias",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "nodeTranslate": "app.js"
+  },
+  "dependencies": {
+    "bingtranslator": "0.0.7"
+  }
+}
