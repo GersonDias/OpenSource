@@ -3,7 +3,7 @@ A multiplatform command line powered by Node.js and Bing.com to make some transl
 
 ## How to install
 ```plaintext
-git clone https://github.com/gersondias/NodeTranslateTool
+git clone https://github.com/gersondias/OpenSource/NodeTranslateTool
 npm install
 npm link
 ```
